@@ -2,7 +2,17 @@
 module.exports = {
   content: ["./dist/index.html", "./src/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      gap: {
+        "gap-custom": "305px",
+      },
+      height: {
+        "6/6": "95%",
+      },
+      inset: {
+        "r-custom": "25%",
+      },
+    },
   },
   plugins: [],
 };
