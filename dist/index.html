@@ -8,11 +8,258 @@
     <link rel="stylesheet" href="input.css">
 </head>
 
-<body class="bg-purple-600 flex justify-center items-center h-screen">
-    <main class="bg-white h-10 w-12">
-        <header class="bg-black"></header>
-    </main>
+<body class="bg-gradient-to-r from-purple-500 to-purple-900 justify-center items-center h-screen w-full flex flex-col">
+    <main class=" max-w-2xl w-full relative pt-2">
+        <header class="bg-gray-700 w-full h-80 flex flex-col items-center justify-center rounded-t-xl">
+            <form class="relative flex flex-col items-center justify-center w-full" action="">
+                <label class="text-white block text-3xl font-thin pb-2" for="textarea"><span class=" font-bold">Give
+                        feedback.</span> Publicly.</label>
+                <p class="pb-5 text-white">Your opinion matters.</p>
 
+                <textarea spellcheck="false"
+                    class="outline-none resize-none w-8/12 h-32 bg-gray-600 text-white p-4 text-md rounded-md"
+                    name="textarea" id="textarea"
+                    placeholder="Enter your feedback here, remember to #hashtag the company"></textarea>
+                <div class="flex flex-row justify-evenly gap-gap-custom absolute bottom-2 items-center">
+                    <p class="text-lg text-gray-300">150</p>
+                    <input class="bg-white w-20 h-8 rounded-full font-semibold cursor-pointer text-sm" type="button"
+                        value="Submit">
+                </div>
+            </form>
+            <div class="flex top-9 right-r-custom pt-6 items-center justify-center">
+                <ul class="flex flex-row justify-center gap-5">
+                    <li
+                        class="bg-slate-100 bg-opacity-20 px-2 py-1 rounded-2xl text-white text-center cursor-pointer text-sm">
+                        #ByteGrad
+                    </li>
+                    <li
+                        class="bg-slate-100 bg-opacity-20 px-2 py-1 rounded-2xl text-white text-center cursor-pointer text-sm">
+                        #Nike
+                    </li>
+                    <li
+                        class="bg-slate-100 bg-opacity-20 px-2 py-1 rounded-2xl text-white text-center cursor-pointer text-sm">
+                        #Mcdonalds</li>
+                    <li
+                        class="bg-slate-100 bg-opacity-20 px-2 py-1 rounded-2xl text-white text-center cursor-pointer text-sm">
+                        #Starbucks</li>
+                </ul>
+            </div>
+        </header>
+    </main>
+    <div class="flex flex-row overflow-y-scroll overflow-x-hidden bg-white h-3/5 w-full max-w-2xl">
+        <ol class="flex flex-col w-full">
+            <li class="border-b-2">
+                <div class="flex flex-row items-center py-3 gap-3">
+                    <div class="flex flex-col items-center py-1 ml-4 text-gray-500">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-gray-500 cursor-pointer" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M5.575 13.729C4.501 15.033 5.43 17 7.12 17h9.762c1.69 0 2.618-1.967 1.544-3.271l-4.881-5.927a2 2 0 0 0-3.088 0l-4.88 5.927Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <div>302</div>
+                    </div> <!--- Like counter-->
+                    <div class="bg-purple-950 py-1 rounded-lg px-3 ml-4 text-2xl text-white">B</div>
+                    <!-- Initial letter for for company-->
+                    <div class="w-full max-w-96 pl-8">
+                        <h2 class="text-gray-400 font-bold text-sm">CompanyName</h2>
+                        <p class="text-gray-800 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Eaque
+                            maiores et voluptas vel.
+                            Dolore iste.</p>
+                    </div> <!-- Inout comment-->
+                    <div class="text-gray-500 text-sm flex pl-24">4d</div> <!-- posted x ago -->
+                </div> <!-- Model for JS-->
+            </li>
+            <li class="border-b-2">
+                <div class="flex flex-row items-center py-3 gap-3">
+                    <div class="flex flex-col items-center py-1 ml-4 text-gray-500">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-gray-500 cursor-pointer" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M5.575 13.729C4.501 15.033 5.43 17 7.12 17h9.762c1.69 0 2.618-1.967 1.544-3.271l-4.881-5.927a2 2 0 0 0-3.088 0l-4.88 5.927Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <div>302</div>
+                    </div> <!--- Like counter-->
+                    <div class="bg-purple-950 py-1 rounded-lg px-3 ml-4 text-2xl text-white">B</div>
+                    <!-- Initial letter for for company-->
+                    <div class="w-full max-w-96 pl-8">
+                        <h2 class="text-gray-400 font-bold text-sm">CompanyName</h2>
+                        <p class="text-gray-800 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Eaque
+                            maiores et voluptas vel.
+                            Dolore iste.</p>
+                    </div> <!-- Inout comment-->
+                    <div class="text-gray-500 text-sm flex pl-24">4d</div> <!-- posted x ago -->
+                </div> <!-- Model for JS-->
+            </li>
+            <li class="border-b-2">
+                <div class="flex flex-row items-center py-3 gap-3">
+                    <div class="flex flex-col items-center py-1 ml-4 text-gray-500">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-gray-500 cursor-pointer" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M5.575 13.729C4.501 15.033 5.43 17 7.12 17h9.762c1.69 0 2.618-1.967 1.544-3.271l-4.881-5.927a2 2 0 0 0-3.088 0l-4.88 5.927Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <div>302</div>
+                    </div> <!--- Like counter-->
+                    <div class="bg-purple-950 py-1 rounded-lg px-3 ml-4 text-2xl text-white">B</div>
+                    <!-- Initial letter for for company-->
+                    <div class="w-full max-w-96 pl-8">
+                        <h2 class="text-gray-400 font-bold text-sm">CompanyName</h2>
+                        <p class="text-gray-800 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Eaque
+                            maiores et voluptas vel.
+                            Dolore iste.</p>
+                    </div> <!-- Inout comment-->
+                    <div class="text-gray-500 text-sm flex pl-24">4d</div> <!-- posted x ago -->
+                </div> <!-- Model for JS-->
+            </li>
+            <li class="border-b-2">
+                <div class="flex flex-row items-center py-3 gap-3">
+                    <div class="flex flex-col items-center py-1 ml-4 text-gray-500">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-gray-500 cursor-pointer" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M5.575 13.729C4.501 15.033 5.43 17 7.12 17h9.762c1.69 0 2.618-1.967 1.544-3.271l-4.881-5.927a2 2 0 0 0-3.088 0l-4.88 5.927Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <div>302</div>
+                    </div> <!--- Like counter-->
+                    <div class="bg-purple-950 py-1 rounded-lg px-3 ml-4 text-2xl text-white">B</div>
+                    <!-- Initial letter for for company-->
+                    <div class="w-full max-w-96 pl-8">
+                        <h2 class="text-gray-400 font-bold text-sm">CompanyName</h2>
+                        <p class="text-gray-800 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Eaque
+                            maiores et voluptas vel.
+                            Dolore iste.</p>
+                    </div> <!-- Inout comment-->
+                    <div class="text-gray-500 text-sm flex pl-24">4d</div> <!-- posted x ago -->
+                </div> <!-- Model for JS-->
+            </li>
+            <li class="border-b-2">
+                <div class="flex flex-row items-center py-3 gap-3">
+                    <div class="flex flex-col items-center py-1 ml-4 text-gray-500">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-gray-500 cursor-pointer" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M5.575 13.729C4.501 15.033 5.43 17 7.12 17h9.762c1.69 0 2.618-1.967 1.544-3.271l-4.881-5.927a2 2 0 0 0-3.088 0l-4.88 5.927Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <div>302</div>
+                    </div> <!--- Like counter-->
+                    <div class="bg-purple-950 py-1 rounded-lg px-3 ml-4 text-2xl text-white">B</div>
+                    <!-- Initial letter for for company-->
+                    <div class="w-full max-w-96 pl-8">
+                        <h2 class="text-gray-400 font-bold text-sm">CompanyName</h2>
+                        <p class="text-gray-800 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Eaque
+                            maiores et voluptas vel.
+                            Dolore iste.</p>
+                    </div> <!-- Inout comment-->
+                    <div class="text-gray-500 text-sm flex pl-24">4d</div> <!-- posted x ago -->
+                </div> <!-- Model for JS-->
+            </li>
+            <li class="border-b-2">
+                <div class="flex flex-row items-center py-3 gap-3">
+                    <div class="flex flex-col items-center py-1 ml-4 text-gray-500">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-gray-500 cursor-pointer" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M5.575 13.729C4.501 15.033 5.43 17 7.12 17h9.762c1.69 0 2.618-1.967 1.544-3.271l-4.881-5.927a2 2 0 0 0-3.088 0l-4.88 5.927Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <div>302</div>
+                    </div> <!--- Like counter-->
+                    <div class="bg-purple-950 py-1 rounded-lg px-3 ml-4 text-2xl text-white">B</div>
+                    <!-- Initial letter for for company-->
+                    <div class="w-full max-w-96 pl-8">
+                        <h2 class="text-gray-400 font-bold text-sm">CompanyName</h2>
+                        <p class="text-gray-800 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Eaque
+                            maiores et voluptas vel.
+                            Dolore iste.</p>
+                    </div> <!-- Inout comment-->
+                    <div class="text-gray-500 text-sm flex pl-24">4d</div> <!-- posted x ago -->
+                </div> <!-- Model for JS-->
+            </li>
+            <li class="border-b-2">
+                <div class="flex flex-row items-center py-3 gap-3">
+                    <div class="flex flex-col items-center py-1 ml-4 text-gray-500">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-gray-500 cursor-pointer" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M5.575 13.729C4.501 15.033 5.43 17 7.12 17h9.762c1.69 0 2.618-1.967 1.544-3.271l-4.881-5.927a2 2 0 0 0-3.088 0l-4.88 5.927Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <div>302</div>
+                    </div> <!--- Like counter-->
+                    <div class="bg-purple-950 py-1 rounded-lg px-3 ml-4 text-2xl text-white">B</div>
+                    <!-- Initial letter for for company-->
+                    <div class="w-full max-w-96 pl-8">
+                        <h2 class="text-gray-400 font-bold text-sm">CompanyName</h2>
+                        <p class="text-gray-800 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Eaque
+                            maiores et voluptas vel.
+                            Dolore iste.</p>
+                    </div> <!-- Inout comment-->
+                    <div class="text-gray-500 text-sm flex pl-24">4d</div> <!-- posted x ago -->
+                </div> <!-- Model for JS-->
+            </li>
+            <li class="border-b-2">
+                <div class="flex flex-row items-center py-3 gap-3">
+                    <div class="flex flex-col items-center py-1 ml-4 text-gray-500">
+                        <svg class="w-6 h-6 text-gray-800 dark:text-gray-500 cursor-pointer" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path fill-rule="evenodd"
+                                d="M5.575 13.729C4.501 15.033 5.43 17 7.12 17h9.762c1.69 0 2.618-1.967 1.544-3.271l-4.881-5.927a2 2 0 0 0-3.088 0l-4.88 5.927Z"
+                                clip-rule="evenodd" />
+                        </svg>
+
+                        <div>302</div>
+                    </div> <!--- Like counter-->
+                    <div class="bg-purple-950 py-1 rounded-lg px-3 ml-4 text-2xl text-white">B</div>
+                    <!-- Initial letter for for company-->
+                    <div class="w-full max-w-96 pl-8">
+                        <h2 class="text-gray-400 font-bold text-sm">CompanyName</h2>
+                        <p class="text-gray-800 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Eaque
+                            maiores et voluptas vel.
+                            Dolore iste.</p>
+                    </div> <!-- Inout comment-->
+                    <div class="text-gray-500 text-sm flex pl-24">4d</div> <!-- posted x ago -->
+                </div> <!-- Model for JS-->
+            </li>
+
+
+        </ol>
+    </div>
 </body>
 
 </html>
