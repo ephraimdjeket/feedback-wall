@@ -12,6 +12,9 @@ module.exports = {
       inset: {
         "r-custom": "25%",
       },
+      scale: {
+        "custom": "1.02",
+      },
     },
   },
   plugins: [],
