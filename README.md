@@ -1,1 +1,1 @@
-practice project.. info coming soon.
+practice project
