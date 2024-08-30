@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./dist/index.html", "./src/**/*.js"],
+  content: ["./dist/index.html", "./js/index.js", "./src/**/*.js"],
   theme: {
     extend: {
       gap: {

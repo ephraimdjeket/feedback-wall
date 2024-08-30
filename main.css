@@ -9,3 +9,7 @@
 .form-invalid {
   border: 1px solid red;
 }
+
+.feedback--expand {
+  padding-bottom: 2rem;
+}
